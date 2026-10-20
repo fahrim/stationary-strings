@@ -31,14 +31,14 @@ yöntem makalesidir.
 | **Mektuplar** (tek başına, modelden bağımsız) | L1, L2, … | `stationary-strings-l1`, … | private ön-baskı, DOI bekliyor |
 | **Ön-görüşler** (gönderilmemiş, hedefli mektup) | PV-1, PV-2, … | `stationary-strings-previews` | taslak |
 
-Destekleyici depolar: `stationary-strings-v` (çözücü + çapraz denetim paketi),
-`stationary-strings-viz` (3B görselleştirme paketi, **görsel — kanıt değil**).
-İki depo bilinçli olarak **private**: gönderim öncesi ön-görüş taslakları ve
-çalışma alanı araçları.
+Destekleyici depolar: `stationary-strings-v` (çözücü + çapraz denetim paketi)
+ve `stationary-strings-viz` (3B görselleştirme paketi — **private**, *görsel,
+kanıt değil*). İki depo daha bilinçli olarak **private**: gönderim öncesi
+ön-görüş taslakları ve çalışma alanı araçları.
 
-> **Görünürlük.** Teoremler I–X, XI–XIV makaleleri, L1–L2 mektupları, bu dizin
-> ve görselleştirme paketi **public** ve Zenodo DOI'lıdır. Ön-görüşler
-> gönderilmemiş taslaktır ve gönderilene kadar private kalır.
+> **Görünürlük.** Teoremler I–X, XI–XIV makaleleri, L1–L2 mektupları ve bu
+> dizin **public** ve Zenodo DOI'lıdır. Görselleştirme paketi, ön-görüşler
+> (gönderilmemiş taslak) ve çalışma alanı araçları private.
 
 ---
 

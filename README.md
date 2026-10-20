@@ -32,13 +32,14 @@ its own claims.
 | **Pre-views** (unsent, targeted correspondence) | PV-1, PV-2, … | `stationary-strings-previews` | drafts |
 
 Supporting repositories: `stationary-strings-v` (the solver + cross-check
-suite), `stationary-strings-viz` (3-D illustration package, **illustration,
-not evidence**). Two repositories are deliberately **private**: the
-pre-submission pre-view drafts and the working-workspace tooling.
+suite) and `stationary-strings-viz` (3-D illustration package — **private**,
+*illustration, not evidence*). Two further repositories are deliberately
+**private**: the pre-submission pre-view drafts and the working-workspace
+tooling.
 
-> **Visibility.** Theorems I–X, papers XI–XIV, letters L1–L2, this index and
-> the visualisation package are **public** and carry Zenodo DOIs. The
-> pre-views are unsent drafts and stay private until they are sent.
+> **Visibility.** Theorems I–X, papers XI–XIV, letters L1–L2 and this index
+> are **public** and carry Zenodo DOIs. The visualisation package, the
+> pre-views (unsent drafts) and the workspace tooling are private.
 ---
 
 ## 2. Full map
