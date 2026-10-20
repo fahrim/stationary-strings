@@ -12,8 +12,8 @@ her iddia bir kanıt sınıfı taşır, bulunan her hata yazıya geçer ve ortay
 çıkan derece-defteri makinelerce doğrulanabilir.
 
 > **Durum:** çalışma dizini. Teoremler I–X yayımlanmıştır (Zenodo DOI'leri
-> aşağıda). XI–XIV ve mektuplar **hakem denetiminden geçmemiş ön-baskılardır**;
-> depoları private, DOI'leri yüklemeyi bekliyor.
+> aşağıda). XI–XIV ve mektuplar **Zenodo DOI'lı ön-baskılardır**; depoları
+> hâlâ private, ön-görüşler gönderilmemiş taslaktır.
 
 ---
 
@@ -53,12 +53,12 @@ araçları).
 | VIII | Falsifiable Predictions, 511 keV Spectral Band, Uncertainty Quantification | `stationary-strings-viii` | [10.5281/zenodo.23436862](https://doi.org/10.5281/zenodo.23436862) | çürütme | yayımlanmış |
 | IX | Super-Brillouin Rejimi, Abrikosov–Diokotron Girdap Kristalleşmesi, Kiral-Elastik Yıkım Kalkanı | `stationary-strings-ix` | [10.5281/zenodo.23436864](https://doi.org/10.5281/zenodo.23436864) | çerçeve + çapraz denetim | yayımlanmış |
 | X | Tokamak H-Mode ve ELM Baskılanması, Runaway Avlanche Sönümü, 30 Onluk Evrensel Ölçekleme Yasası | `stationary-strings-x` | [10.5281/zenodo.23437159](https://doi.org/10.5281/zenodo.23437159) | çerçeve + çapraz denetim | yayımlanmış |
-| **XI** | **Çerçeve, Derece-Defteri ve Adli Denetim** | `stationary-strings-xi` | — | **yöntem + kendini puanlama** | private ön-baskı |
-| XII | Karanlık-Maddesiz Galaktik Dinamik, SPARC Dönüş Eğrileri, EHT Halka Kanıtı | `stationary-strings-xii` | — | uygulama + çapraz denetim | private ön-baskı |
-| XIII | Navier–Stokes Girdap Doyumundan 4B SU(3) Yang–Mills Kütle Aralığına İzomorfizm, Glueball Spektrumu | `stationary-strings-xiii` | — | uygulama + analitik sınır | private ön-baskı |
-| XIV | Masaüstü Viskoelastik Girdap PIV, Vela Glitch Gözlemleri, Na-22 Pozitronyum | `stationary-strings-xiv` | — | uygulama + protokol | private ön-baskı |
-| **L1** | **Üç-Foton Pozitronyum Spektrumu — arXiv:2605.21289 Denk. (12)'nin düzeltmesi ve bir saatlik laboratuvar testi** | `stationary-strings-l1` | — | **seriden bağımsız** | private ön-baskı |
-| **L2** | **Kaynak Yoksa Uyum da Yoktur — literatür değerleri için adli protokol (hayalet parametre tespiti)** | `stationary-strings-l2` | — | **yöntem, öz-bildirimli hata** | private ön-baskı |
+| **XI** | **Çerçeve, Derece-Defteri ve Adli Denetim** | `stationary-strings-xi` | [10.5281/zenodo.23517470](https://doi.org/10.5281/zenodo.23517470) | **yöntem + kendini puanlama** | ön-baskı, DOI'lı |
+| XII | Karanlık-Maddesiz Galaktik Dinamik, SPARC Dönüş Eğrileri, EHT Halka Kanıtı | `stationary-strings-xii` | [10.5281/zenodo.23517474](https://doi.org/10.5281/zenodo.23517474) | uygulama + çapraz denetim | ön-baskı, DOI'lı |
+| XIII | Navier–Stokes Girdap Doyumundan 4B SU(3) Yang–Mills Kütle Aralığına İzomorfizm, Glueball Spektrumu | `stationary-strings-xiii` | [10.5281/zenodo.23517479](https://doi.org/10.5281/zenodo.23517479) | uygulama + analitik sınır | ön-baskı, DOI'lı |
+| XIV | Masaüstü Viskoelastik Girdap PIV, Vela Glitch Gözlemleri, Na-22 Pozitronyum | `stationary-strings-xiv` | [10.5281/zenodo.23517485](https://doi.org/10.5281/zenodo.23517485) | uygulama + protokol | ön-baskı, DOI'lı |
+| **L1** | **Üç-Foton Pozitronyum Spektrumu — arXiv:2605.21289 Denk. (12)'nin düzeltmesi ve bir saatlik laboratuvar testi** | `stationary-strings-l1` | [10.5281/zenodo.23517487](https://doi.org/10.5281/zenodo.23517487) | **seriden bağımsız** | ön-baskı, DOI'lı |
+| **L2** | **Kaynak Yoksa Uyum da Yoktur — literatür değerleri için adli protokol (hayalet parametre tespiti)** | `stationary-strings-l2` | [10.5281/zenodo.23517495](https://doi.org/10.5281/zenodo.23517495) | **yöntem, öz-bildirimli hata** | ön-baskı, DOI'lı |
 
 Destekleyici: `stationary-strings-v` (çözücü + doğrulama), `stationary-strings-viz`
 (3B görselleştirme, **kanıt değil**), `stationary-strings-workspace` (araçlar).

@@ -12,8 +12,8 @@ claim carries an evidence class, every error found is written down, and the
 resulting ledger is machine-checkable.
 
 > **Status:** working index. Theorems I–X are published (Zenodo DOIs below).
-> Papers XI–XIV and the letters are **unpublished preprints under review**;
-> their repos are private and their DOIs are pending deposit.
+> Papers XI–XIV and the letters are **preprints with Zenodo DOIs**; their
+> repositories are still private, and the pre-views are unsent drafts.
 
 ---
 
@@ -52,12 +52,12 @@ workspace's tooling).
 | VIII | Falsifiable Predictions, 511 keV Spectral Band, Uncertainty Quantification | `stationary-strings-viii` | [10.5281/zenodo.23436862](https://doi.org/10.5281/zenodo.23436862) | falsification | published |
 | IX | Super-Brillouin Regime, Abrikosov–Diocotron Vortex Crystallization, Chiral-Elastic Annihilation Shield | `stationary-strings-ix` | [10.5281/zenodo.23436864](https://doi.org/10.5281/zenodo.23436864) | framework + cross-check | published |
 | X | Tokamak H-Mode and ELM Suppression, Runaway Avalanche Quench, 30-Decade Universal Scaling Law | `stationary-strings-x` | [10.5281/zenodo.23437159](https://doi.org/10.5281/zenodo.23437159) | framework + cross-check | published |
-| **XI** | **The Framework, a Degrees-of-Freedom Ledger and a Forensic Audit** | `stationary-strings-xi` | — | **methods + self-assessment** | private preprint |
-| XII | Dark-Matter-Free Galactic Dynamics, SPARC Rotation Curves, EHT Ring Evidence | `stationary-strings-xii` | — | application + cross-check | private preprint |
-| XIII | Navier–Stokes Vortex Saturation → 4D SU(3) Yang–Mills Mass-Gap Isomorphism, Glueball Spectrum | `stationary-strings-xiii` | — | application + analytic bound | private preprint |
-| XIV | Benchtop Viscoelastic Vortex PIV, Vela Glitch Observations, Na-22 Positronium | `stationary-strings-xiv` | — | application + protocol | private preprint |
-| **L1** | **The Three-Photon Positronium Spectrum — correction to arXiv:2605.21289 Eq. (12) and a one-hour laboratory test** | `stationary-strings-l1` | — | **independent of the series** | private preprint |
-| **L2** | **No Source, No Agreement — a forensic protocol for literature values (ghost-parameter detection)** | `stationary-strings-l2` | — | **methodology, self-reported error** | private preprint |
+| **XI** | **The Framework, a Degrees-of-Freedom Ledger and a Forensic Audit** | `stationary-strings-xi` | [10.5281/zenodo.23517470](https://doi.org/10.5281/zenodo.23517470) | **methods + self-assessment** | preprint, DOI'd |
+| XII | Dark-Matter-Free Galactic Dynamics, SPARC Rotation Curves, EHT Ring Evidence | `stationary-strings-xii` | [10.5281/zenodo.23517474](https://doi.org/10.5281/zenodo.23517474) | application + cross-check | preprint, DOI'd |
+| XIII | Navier–Stokes Vortex Saturation → 4D SU(3) Yang–Mills Mass-Gap Isomorphism, Glueball Spectrum | `stationary-strings-xiii` | [10.5281/zenodo.23517479](https://doi.org/10.5281/zenodo.23517479) | application + analytic bound | preprint, DOI'd |
+| XIV | Benchtop Viscoelastic Vortex PIV, Vela Glitch Observations, Na-22 Positronium | `stationary-strings-xiv` | [10.5281/zenodo.23517485](https://doi.org/10.5281/zenodo.23517485) | application + protocol | preprint, DOI'd |
+| **L1** | **The Three-Photon Positronium Spectrum — correction to arXiv:2605.21289 Eq. (12) and a one-hour laboratory test** | `stationary-strings-l1` | [10.5281/zenodo.23517487](https://doi.org/10.5281/zenodo.23517487) | **independent of the series** | preprint, DOI'd |
+| **L2** | **No Source, No Agreement — a forensic protocol for literature values (ghost-parameter detection)** | `stationary-strings-l2` | [10.5281/zenodo.23517495](https://doi.org/10.5281/zenodo.23517495) | **methodology, self-reported error** | preprint, DOI'd |
 
 Supporting: `stationary-strings-v` (solver + verification), `stationary-strings-viz`
 (3-D illustration, **not evidence**), `stationary-strings-workspace` (tooling).
