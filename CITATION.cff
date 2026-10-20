@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "Stationary Strings: Series Map and Audit Trail"
+message: "If you use this work, please cite the individual paper you used; this index is not itself a reference."
+type: software
+authors:
+  - family-names: Meral
+    given-names: Fahri
+date-released: 2026-10-20
+version: v1
+repository-code: "https://github.com/fahrim/stationary-strings"
+license: CC-BY-4.0
+keywords:
+  - stationary strings
+  - FENE-P
+  - vortex saturation
+  - positronium
+  - Yang-Mills mass gap
+  - reproducibility
+  - audit trail

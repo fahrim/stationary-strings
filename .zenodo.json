@@ -1,0 +1,21 @@
+{
+  "title": "Stationary Strings: Series Map and Audit Trail",
+  "description": "Series index (October 2026) for the Stationary Strings line of work: ten published theorem papers (I-X, Zenodo DOIs listed), four application and audit papers (XI-XIV: framework with a machine-readable degrees-of-freedom ledger, dark-matter-free galactic dynamics, Yang-Mills mass-gap enclosure with an analytic grid-independent Temple-Kato bound, and benchtop/observational protocols), and independent letters (L1: correction of the three-photon positronium spectrum published as Eq. 12 of arXiv:2605.21289, with a proposed one-hour HPGe test). The index documents the evidence classification of 17 published comparisons (2 fit, 2 fit-like, 10 transfer, 2 genuine, 1 structural; evidence ratio 0.889 against 8 independent observable groups and 9 free degrees of freedom), the fragility of the glueball agreement (27.8 percent per 1 percent shift of the locked constant C_univ), and the eight error classes found and corrected within the work. Solver and 94 independent checks are released with the Paper V repository.",
+  "creators": [
+    {
+      "name": "Meral, Fahri"
+    }
+  ],
+  "license": {
+    "id": "CC-BY-4.0"
+  },
+  "keywords": [
+    "stationary strings",
+    "FENE-P",
+    "vortex saturation",
+    "positronium",
+    "Yang-Mills mass gap",
+    "audit trail",
+    "reproducibility"
+  ]
+}
