@@ -56,6 +56,7 @@ araçları).
 | XIII | Navier–Stokes Girdap Doyumundan 4B SU(3) Yang–Mills Kütle Aralığına İzomorfizm, Glueball Spektrumu | `stationary-strings-xiii` | — | uygulama + analitik sınır | private ön-baskı |
 | XIV | Masaüstü Viskoelastik Girdap PIV, Vela Glitch Gözlemleri, Na-22 Pozitronyum | `stationary-strings-xiv` | — | uygulama + protokol | private ön-baskı |
 | **L1** | **Üç-Foton Pozitronyum Spektrumu — arXiv:2605.21289 Denk. (12)'nin düzeltmesi ve bir saatlik laboratuvar testi** | `stationary-strings-l1` | — | **seriden bağımsız** | private ön-baskı |
+| **L2** | **Kaynak Yoksa Uyum da Yoktur — literatür değerleri için adli protokol (hayalet parametre tespiti)** | `stationary-strings-l2` | — | **yöntem, öz-bildirimli hata** | private ön-baskı |
 
 Destekleyici: `stationary-strings-v` (çözücü + doğrulama), `stationary-strings-viz`
 (3B görselleştirme, **kanıt değil**), `stationary-strings-workspace` (araçlar).
@@ -128,6 +129,39 @@ kat** fazla sayım öngörür.
 > terim terim kaynak denetimidir; laboratuvar koşusu bu denetimin çürütme
 > testidir.
 
+## 5b. L2 mektubu — hatayı yakalayan yöntem
+
+L1 modelden bağımsız *iddia*, L2 ise modelden bağımsız *yöntemdir*: bir
+literatür değerinin baştan denetlenebilir olması. Bu mektup, çalışmamızın
+içinde yapılmış bir hatayı bildirir: bir ölçümsel oranlar tablosu *bağımsız
+literatür, model dışı* olarak etiketlenmiş ve iki model çıktısıyla
+karşılaştırılmış, iki model çıktısı da iki alıntılanan aralığın içine
+düşmüştür. Dört birincil makale indirilip tam olarak tarandı; alıntılanan
+sayılar onların hiçbirinde geçmiyor, dolayısıyla iddia geri çekildi.
+
+İki test kod olarak yayımlandı:
+
+- **Depo arkeolojisi** — değer, onu kullanan uyum iddiası ileri sürülmeden
+  önce hiç *kaynaklı* bir veri olarak kaydedilmiş miydi? İlk referans
+  görünüşü ile ilk iddia görünüşü aynı commit olan bir değer, bir kaynaktan
+  türetilmiş değil, bir uyum olarak doğmuştur.
+- **Kaynak varlık taraması** — alıntılanan aralık kaynak korpusunda hiç var
+  mı, eş-şidd ayrıca bildirilerek? Jetonun varlığı provenance değildir ve
+  bağlam olmadan eş-şidd de değildir: `0.30` ve `0.35` üç alakasız dosyada
+  birlikte geçer (bir 511 keV makalesi, bir antihidrojen hiperfine makalesi,
+  iki INTEGRAL akış haritası).
+
+Korunmaya değer üç sonuç:
+
+1. İki görünür teyit **cebire bağımlıydı** — çökme oranı, hız oranının
+   karesinin (1 + μ_s)'e bölümüdür (5,6×10⁻¹⁷ hassasiyetle doğrulandı) —
+   yani görünür iki noktalı uyum tek bir serbestlik derecesine dayanıyordu.
+2. Etkilenen iki testte kullanılan altı literatür büyüklüğünden **üçü hiçbir
+   kaynağa izlenemiyordu**, ikisi daha sayısal olarak yanlıştı.
+3. Hayalet bant çalışma ağacında **56 dakika** yaşadı; yakalayan hiçbir araç
+   değil, kaynakları okumak oldu. Araç, bu disiplinin ne yaptığını resmileştirir
+   ve ucuzlatır.
+
 ---
 
 ## 6. Yeniden-üretim
@@ -145,6 +179,7 @@ python -W ignore duran_sicimler_sim/mini_check_gp3.py       # 15/15  (SS-XIV)
 python -W ignore duran_sicimler_sim/mini_check_audit.py     # 9/9   (seri geneli denetim)
 python -W ignore duran_sicimler_sim/ledger.py               # defter + LaTeX tablo denetimi
 python -W ignore duran_sicimler_sim/na22_experiment.py      # L1 protokol sayıları
+python -W ignore duran_sicimler_sim/mini_check_l2.py        # 7/7  (L2 adli aracı)
 ```
 
 Çapraz denetim betikleri bilinçli olarak **çözücüyü import etmez**; her kilit

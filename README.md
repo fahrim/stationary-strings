@@ -34,7 +34,6 @@ Supporting repositories: `stationary-strings-v` (the solver + cross-check
 suite, public), `stationary-strings-viz` (3-D illustration package, private,
 **illustration, not evidence**), `stationary-strings-workspace` (this
 workspace's tooling).
-
 ---
 
 ## 2. Full map
@@ -56,6 +55,7 @@ workspace's tooling).
 | XIII | Navier–Stokes Vortex Saturation → 4D SU(3) Yang–Mills Mass-Gap Isomorphism, Glueball Spectrum | `stationary-strings-xiii` | — | application + analytic bound | private preprint |
 | XIV | Benchtop Viscoelastic Vortex PIV, Vela Glitch Observations, Na-22 Positronium | `stationary-strings-xiv` | — | application + protocol | private preprint |
 | **L1** | **The Three-Photon Positronium Spectrum — correction to arXiv:2605.21289 Eq. (12) and a one-hour laboratory test** | `stationary-strings-l1` | — | **independent of the series** | private preprint |
+| **L2** | **No Source, No Agreement — a forensic protocol for literature values (ghost-parameter detection)** | `stationary-strings-l2` | — | **methodology, self-reported error** | private preprint |
 
 Supporting: `stationary-strings-v` (solver + verification), `stationary-strings-viz`
 (3-D illustration, **not evidence**), `stationary-strings-workspace` (tooling).
@@ -130,6 +130,40 @@ predicts 5671× more low-energy counts than the corrected one.
 > correction is a term-by-term source audit against the 1949 original; the
 > laboratory run is the falsification test of that audit.
 
+## 5b. Letter L2 — the forensic method that caught it
+
+L1 is the model-free claim; L2 is the model-free *method* that a literature
+value can be checked with at all. It reports an error made inside this work:
+a table of experimental ratios was labelled *independent literature, outside
+the model* and compared with two model outputs, and both model outputs landed
+inside the two quoted intervals. Four primary papers were downloaded and
+scanned in full; the quoted numbers occur nowhere in them, so the claim was
+withdrawn.
+
+Two tests are released as code:
+
+- **Repository archaeology** — was the value ever recorded as a *sourced* datum
+  before the agreement that uses it was asserted? A value whose first
+  reference-frame appearance and first claim-frame appearance are the same
+  commit was born as an agreement, not derived from a source.
+- **Source-existence scanning** — does the quoted interval exist in the source
+  corpus at all, with co-occurrence reported separately? Token presence is not
+  provenance, and co-occurrence without context is not provenance either:
+  `0.30` and `0.35` co-occur in three unrelated files (a 511 keV paper, an
+  antihydrogen hyperfine paper, two INTEGRAL flux maps).
+
+Three results worth keeping:
+
+1. The two apparent confirmations were **algebraically dependent** — the
+   depression ratio is the square of the velocity ratio divided by
+   1 + μ_s (verified to 5.6×10⁻¹⁷) — so the apparent two-point agreement
+   rested on a single degree of freedom.
+2. Of the six literature quantities used in the two affected tests, **three
+   could not be traced to any source** and two more were numerically wrong.
+3. The phantom band survived in the working tree for **56 minutes**; it was
+   caught by reading the sources, not by any tool. The tool formalises what
+   that discipline did and makes it cheap.
+
 ---
 
 ## 6. Reproducing
@@ -147,6 +181,7 @@ python -W ignore duran_sicimler_sim/mini_check_gp3.py       # 15/15  (SS-XIV)
 python -W ignore duran_sicimler_sim/mini_check_audit.py     # 9/9   (series-wide audit)
 python -W ignore duran_sicimler_sim/ledger.py               # ledger + LaTeX table check
 python -W ignore duran_sicimler_sim/na22_experiment.py      # L1 protocol numbers
+python -W ignore duran_sicimler_sim/mini_check_l2.py        # 7/7  (L2 forensic tool)
 ```
 
 The cross-check scripts deliberately **do not import** the solver; they
