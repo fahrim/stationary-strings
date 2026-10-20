@@ -38,6 +38,8 @@ suite) and `stationary-strings-viz` (3-D illustration package — **private**,
 tooling.
 
 > **Visibility.** Theorems I–X, papers XI–XIV, letters L1–L2 and this index
+
+> **Versions.** SS-XIII and SS-XIV were re-deposited after their titles were aligned with their own abstracts (the earlier version DOI is 10.5281/zenodo.23517479 and 10.5281/zenodo.23517485; the concept DOIs, which always resolve to the latest version, are 10.5281/zenodo.23517478 and 10.5281/zenodo.23517484).
 > are **public** and carry Zenodo DOIs. The visualisation package, the
 > pre-views (unsent drafts) and the workspace tooling are private.
 ---
@@ -58,8 +60,8 @@ tooling.
 | X | Tokamak H-Mode and ELM Suppression, Runaway Avalanche Quench, 30-Decade Universal Scaling Law | `stationary-strings-x` | [10.5281/zenodo.23437159](https://doi.org/10.5281/zenodo.23437159) | framework + cross-check | published |
 | **XI** | **The Framework, a Degrees-of-Freedom Ledger and a Forensic Audit** | `stationary-strings-xi` | [10.5281/zenodo.23517470](https://doi.org/10.5281/zenodo.23517470) | **methods + self-assessment** | preprint, DOI'd |
 | XII | Dark-Matter-Free Galactic Dynamics, SPARC Rotation Curves, EHT Ring Evidence | `stationary-strings-xii` | [10.5281/zenodo.23517474](https://doi.org/10.5281/zenodo.23517474) | application + cross-check | preprint, DOI'd |
-| XIII | Navier–Stokes Vortex Saturation → 4D SU(3) Yang–Mills Mass-Gap Isomorphism, Glueball Spectrum | `stationary-strings-xiii` | [10.5281/zenodo.23517479](https://doi.org/10.5281/zenodo.23517479) | application + analytic bound | preprint, DOI'd |
-| XIV | Benchtop Viscoelastic Vortex PIV, Vela Glitch Observations, Na-22 Positronium | `stationary-strings-xiv` | [10.5281/zenodo.23517485](https://doi.org/10.5281/zenodo.23517485) | application + protocol | preprint, DOI'd |
+| XIII | Navier–Stokes Vortex Saturation → 4D SU(3) Yang–Mills Mass-Gap Bridge, Glueball Spectrum | `stationary-strings-xiii` | [10.5281/zenodo.23519595](https://doi.org/10.5281/zenodo.23519595) | application + analytic bound | preprint, DOI'd |
+| XIV | Two Proposed Benchtop Tests (Viscoelastic Vortex PIV and Na-22 Positronium) and Vela Pulsar Glitch Observations | `stationary-strings-xiv` | [10.5281/zenodo.23519746](https://doi.org/10.5281/zenodo.23519746) | application + protocol | preprint, DOI'd |
 | **L1** | **The Three-Photon Positronium Spectrum — correction to arXiv:2605.21289 Eq. (12) and a one-hour laboratory test** | `stationary-strings-l1` | [10.5281/zenodo.23517487](https://doi.org/10.5281/zenodo.23517487) | **independent of the series** | preprint, DOI'd |
 | **L2** | **No Source, No Agreement — a forensic protocol for literature values (ghost-parameter detection)** | `stationary-strings-l2` | [10.5281/zenodo.23517495](https://doi.org/10.5281/zenodo.23517495) | **methodology, self-reported error** | preprint, DOI'd |
 
