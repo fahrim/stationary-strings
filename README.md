@@ -184,7 +184,19 @@ python -W ignore duran_sicimler_sim/mini_check_audit.py     # 9/9   (series-wide
 python -W ignore duran_sicimler_sim/ledger.py               # ledger + LaTeX table check
 python -W ignore duran_sicimler_sim/na22_experiment.py      # L1 protocol numbers
 python -W ignore duran_sicimler_sim/mini_check_l2.py        # 7/7  (L2 forensic tool)
+python -W ignore duran_sicimler_sim/mini_check_zenodo.py    # 5/5  (DOI deposit tool)
 ```
+
+**Deposing a DOI.** The tool is ready; only a Zenodo token is missing:
+
+```bash
+python -W ignore duran_sicimler_sim/zenodo_deposit.py \
+    --repo ../stationary-strings-xi --token <ZENODO_TOKEN>
+```
+
+It builds the archive, creates the deposition, uploads the file, **publishes**,
+and writes the DOI into `README.md`, `README_TR.md` (badge) and
+`CITATION.cff`. `--dry-run` prepares everything without touching the network.
 
 The cross-check scripts deliberately **do not import** the solver; they
 re-derive each locked constant independently and compare.

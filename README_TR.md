@@ -182,7 +182,19 @@ python -W ignore duran_sicimler_sim/mini_check_audit.py     # 9/9   (seri geneli
 python -W ignore duran_sicimler_sim/ledger.py               # defter + LaTeX tablo denetimi
 python -W ignore duran_sicimler_sim/na22_experiment.py      # L1 protokol sayıları
 python -W ignore duran_sicimler_sim/mini_check_l2.py        # 7/7  (L2 adli aracı)
+python -W ignore duran_sicimler_sim/mini_check_zenodo.py    # 5/5  (DOI yükleme aracı)
 ```
+
+**DOI yükleme.** Araç hazır; eksik olan tek şey bir Zenodo token'ı:
+
+```bash
+python -W ignore duran_sicimler_sim/zenodo_deposit.py \
+    --repo ../stationary-strings-xi --token <ZENODO_TOKEN>
+```
+
+Arac arşivi kurar, deposition'ı oluşturur, dosyayı yükler, **yayınlar** ve
+DOI'yi `README.md`, `README_TR.md` (rozet) ve `CITATION.cff` içine yazar.
+`--dry-run` ağ erişimi olmadan her şeyi hazırlar.
 
 Çapraz denetim betikleri bilinçli olarak **çözücüyü import etmez**; her kilit
 sabiti bağımsız olarak türetip karşılaştırırlar.
