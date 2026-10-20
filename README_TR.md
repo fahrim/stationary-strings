@@ -29,10 +29,12 @@ yöntem makalesidir.
 | **Teori** (teoremler, model kurulumu) | I … X | `stationary-strings-i` … `-x` | yayımlanmış, DOI'lı — **dokunulmadı** |
 | **Uygulama & denetim** (testler, defter, adli inceleme) | XI … XIV | `stationary-strings-xi` … `-xiv` | private ön-baskı, DOI bekliyor |
 | **Mektuplar** (tek başına, modelden bağımsız) | L1, L2, … | `stationary-strings-l1`, … | private ön-baskı, DOI bekliyor |
+| **Ön-görüşler** (gönderilmemiş, hedefli mektup) | PV-1, PV-2, … | `stationary-strings-previews` | taslak |
 
 Destekleyici depolar: `stationary-strings-v` (çözücü + çapraz denetim paketi,
 public), `stationary-strings-viz` (3B görselleştirme paketi, private,
-**görsel — kanıt değil**), `stationary-strings-workspace` (çalışma alanı
+**görsel — kanıt değil**), `stationary-strings-previews` (gönderilmemiş
+ön-görüş mektupları), `stationary-strings-workspace` (çalışma alanı
 araçları).
 
 ---

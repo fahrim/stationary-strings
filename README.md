@@ -29,10 +29,12 @@ its own claims.
 | **Theory** (theorems, model construction) | I … X | `stationary-strings-i` … `-x` | published, DOI'd — **untouched** |
 | **Application & audit** (tests, ledger, forensics) | XI … XIV | `stationary-strings-xi` … `-xiv` | private preprints, DOI pending |
 | **Letters** (single, self-contained, model-free) | L1, L2, … | `stationary-strings-l1`, … | private preprints, DOI pending |
+| **Pre-views** (unsent, targeted correspondence) | PV-1, PV-2, … | `stationary-strings-previews` | drafts |
 
 Supporting repositories: `stationary-strings-v` (the solver + cross-check
 suite, public), `stationary-strings-viz` (3-D illustration package, private,
-**illustration, not evidence**), `stationary-strings-workspace` (this
+**illustration, not evidence**), `stationary-strings-previews` (unsent
+pre-submission correspondence), `stationary-strings-workspace` (this
 workspace's tooling).
 ---
 
