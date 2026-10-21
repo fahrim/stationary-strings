@@ -4,7 +4,9 @@
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
 
-**Tek depo, tek seri, tek numaralandırma.** Bu depo, *Stationary Strings*
+**Tek depo, tek seri, tek numaralandırma.**
+
+**Yazar:** Fahri Meral · ORCID: [0009-0004-2287-2376](https://orcid.org/0009-0004-2287-2376) · Bağımsız Araştırmacı Bu depo, *Stationary Strings*
 çalışma hattının dizinidir: yayımlanmış on teorem makalesi (I–X), dört
 uygulama/denetim makalesi (XI–XIV) ve seriden bağımsız mektuplar (L1, …).
 Dosyasının sebebi şudur: çalışma bilinçli olarak kendini eleştiriyor —

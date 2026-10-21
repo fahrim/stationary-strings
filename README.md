@@ -4,7 +4,9 @@
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
 
-**One repository, one series, one numbering.** This repository is the index
+**One repository, one series, one numbering.**
+
+**Author:** Fahri Meral · ORCID: [0009-0004-2287-2376](https://orcid.org/0009-0004-2287-2376) · Independent Researcher This repository is the index
 for the *Stationary Strings* line of work: ten published theorem papers
 (I–X), four application/audit papers (XI–XIV), and the independent letters
 (L1, …). It exists because the work is deliberately self-critical: every
